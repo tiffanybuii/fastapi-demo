@@ -33,6 +33,13 @@ def get_all_albums():
     db.close()
     return results
 
+@app.get("/items")
+def get_all_items():
+    items_data = [
+        {"Thriller": "Michael Jackson"}
+    ]
+    return items_data
+
 
 # @app.get("/albums/{id}")
 # def get_one_album(id):
