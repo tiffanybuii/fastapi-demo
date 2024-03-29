@@ -36,7 +36,7 @@ def get_all_albums():
 @app.get("/items")
 def get_all_items():
     items_data = [
-        {"Thriller": "Michael Jackson"}
+        {"Thriller": "Michael Jackson", "Boston": "Boston"}
     ]
     return items_data
 
